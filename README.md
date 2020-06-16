@@ -1,4 +1,4 @@
-Exercícios
+# Exercícios
 
 Botão limpar, que quando você clica ele limpa tanto o TextView quanto o EditText
 
@@ -11,6 +11,7 @@ Criação de uma nova tela, que tenha nome e sobrenome do usuário, tendo o mesm
 
 Dicas de utilização:
 
+```kotlin
 etInfo.error = "Mensagem de erro"
 
 Toast.makeText()
@@ -18,3 +19,4 @@ Toast.makeText()
 if () {
 } else {
 }
+```
