@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Botão Abrir Activity
+        // Intent para uma outra activity do app
         btAbrirActivity.setOnClickListener {
             val informacaoDigitada = etInfo.text.trim().toString()
 
@@ -43,5 +44,21 @@ class MainActivity : AppCompatActivity() {
                 etInfo.error = "Digite uma informação."
             }
         }
+
+        // Intents externs
+        /*btAbrirActivity.setOnClickListener {
+            // URL
+//            val intent = Intent(Intent.ACTION_VIEW)
+//            intent.data = Uri.parse("http://www.oceanbrasil.com/");
+//            startActivity(intent);
+
+            // Enviar SMS
+//            startActivity(
+//                Intent(
+//                    Intent.ACTION_VIEW,
+//                    Uri.fromParts("sms", "1132221122", null)
+//                )
+//            )
+        }*/
     }
 }

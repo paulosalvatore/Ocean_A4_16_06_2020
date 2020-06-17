@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Ocean_A4_16_06_2020</string>
+    <string name="infoPlaceholder">Informação digitada aparecerá aqui.</string>
 </resources>
