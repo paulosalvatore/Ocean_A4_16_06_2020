@@ -51,38 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etInfo" />
 
-    <!--
-            <FrameLayout
-                android:id="@+id/layoutBtLimpar"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:background="@color/colorAccent"
-                android:layout_marginStart="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/btAtualizar"
-                app:layout_constraintTop_toBottomOf="@+id/etInfo">
-
-                <Button
-                    android:id="@+id/btLimpar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:background="@null"
-                    android:drawableLeft="@drawable/ic_trash"
-                    android:drawableTint="#000"
-                    android:gravity="center"
-                    android:minHeight="0dp"
-                    android:minWidth="0dp"
-                    android:text="Limpar"
-                    android:textColor="@android:color/white" />
-            </FrameLayout>
-    -->
-
-    <Button
+    <ImageButton
         android:id="@+id/btLimpar"
         android:layout_width="0dp"
         android:layout_height="40dp"
@@ -93,14 +62,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorAccent"
-        android:drawableLeft="@drawable/ic_trash"
-        android:drawableTint="#000000"
-        android:gravity="center"
-        android:text="Limpar"
+        android:src="@drawable/ic_trash"
         android:textColor="@android:color/white"
+        android:tint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btAtualizar"
-        app:layout_constraintTop_toBottomOf="@+id/etInfo" />
+        app:layout_constraintTop_toBottomOf="@+id/etInfo"
+        android:contentDescription="Limpar" />
 
     <Button
         android:id="@+id/btAbrirActivity"
